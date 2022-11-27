@@ -1,0 +1,25 @@
+.description-wrapper {
+    text-align: center;
+    margin: 20px 20%;
+}
+
+.description-title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .description-wrapper {
+        margin: 15px 9%;
+    }
+
+    .description-title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .description-wrapper {
+        margin: 10px 9%;
+    }
+}

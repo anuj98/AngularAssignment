@@ -1,0 +1,94 @@
+.static-container {
+    display: inline-table;
+    width: 100%;
+}
+
+.unwanted-space {
+    margin-top: -5px;
+}
+
+.topsection-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 280px;
+    background-color: #005570;
+    color: #FFFFFF;
+}
+
+.bottomsection-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    height: 280px;
+    background: transparent url('../../assets/public/Group.png') right no-repeat padding-box;
+    padding-left: 6.5%;
+    background-size: contain;
+}
+
+.topsection-title,
+.bottomsection-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.topsection-description,
+.bottomsection-description {
+    margin-bottom: 30px;
+}
+
+.topsection-button,
+.bottomsection-button {
+    width: 140px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+}
+
+.bottomsection-button {
+    width: 144px;
+    padding-left: 0px;
+    background: transparent;
+    display: flex;
+    color: #0077CE;
+    align-items: center;
+}
+
+.chevron-icon {
+    margin-left: 10px;
+    padding-top: 2px;
+}
+
+@media screen and (max-width: 1024px) {
+    .topsection-wrapper,
+    .bottomsection-wrapper {
+        height: 200px;
+    }
+
+    .topsection-title,
+    .bottomsection-title {
+        font-size: 24px;
+    }
+
+    .topsection-description,
+    .bottomsection-description {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .topsection-wrapper,
+    .bottomsection-wrapper {
+        height: 150px;
+    }
+
+    .topsection-title,
+    .bottomsection-title {
+        font-size: 16px;
+    }
+
+    .topsection-description,
+    .bottomsection-description {
+        font-size: 8px;
+    }
+}

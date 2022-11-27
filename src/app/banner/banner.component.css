@@ -1,0 +1,32 @@
+.jumbotron{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background: url("../../assets/public/Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-text-container {
+    width: 469px;
+    height: 101px;
+}
+
+.banner-title {
+    font-size: 34px;
+}
+
+@media screen and (max-width: 1300px) {
+    .jumbotron {
+        height: 250px;
+        background-size: initial;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .jumbotron {
+        height: 200px;
+        background-size: initial;
+    }
+}

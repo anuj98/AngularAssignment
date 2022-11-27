@@ -1,0 +1,11 @@
+.text-style {
+    font-size: 12px;
+}
+
+.text-start {
+    padding-left: 6%;
+}
+
+.text-end {
+    padding-right: 6%;
+}

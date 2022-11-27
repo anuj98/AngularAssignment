@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-md bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img alt="MAQ Software logo" src="../../assets/public/MAQSoftware_Logo_FullColor.png"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar-toggleable-md" id="navbarSupportedContent">
+        <div class="training-center">
+          <span class="right-spacing-brand">|</span>
+          <span class="right-spacing-brand">Training Center</span>
+        </div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Career</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" (keyup.enter)='getSearchResult()' (ngModel)='searchText'>
+          <img alt="Search" class="search-icon" src="../../assets/public/noun_Search_3504832.svg"/>
+        </form>
+      </div>
+    </div>
+  </nav>

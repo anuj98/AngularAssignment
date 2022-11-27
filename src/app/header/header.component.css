@@ -1,0 +1,52 @@
+.container-fluid {
+    padding: 0 6%;
+}
+
+.training-center {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+}
+
+.right-spacing-brand {
+    margin-right: 16px;
+}
+
+.navbar-nav {
+    margin-left: 25px;
+}
+
+.nav-link {
+    font-weight: 600;
+    margin-right: 12px;
+}
+
+.d-flex {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute; 
+    right: 20px;
+    top: 12px;
+}
+
+@media (max-width: 1000px) {
+    .training-center {
+        font-size: 15px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 720px) {
+    .training-center {
+        display: none;
+    }
+}
